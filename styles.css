@@ -1,0 +1,146 @@
+body{
+  text-align: center;
+  margin:0;
+  font-family: 'Lobster', cursive;
+}
+.butt{
+  height: 130px;
+  border-radius: 50%;
+  font-size: 1.2rem;
+  width:130px;
+  background-color: #CCF2F4;
+  border: solid 3px;
+}
+.butt:hover{
+  box-shadow: 1px 1px 10px #000;
+}
+.buttpress{
+  background-color: #F0ED99;
+}
+#head{
+  /* margin:0; */
+  background-color: #53B8BB;
+  padding: 3%;
+  font-family: 'Lobster', cursive;
+  /* font-size: 3rem; */
+  /* padding-bottom: 7%; */
+  /* margin-bottom: 3%; */
+  text-align: center;
+}
+#game{
+  text-align: center;
+  height: 10%;
+  background-color: #FFEEDB;
+  padding-top: 3%;
+  /* font-family: 'Lobster', cursive; */
+
+  /* margin-top: 7%; */
+
+}
+#play{
+  text-align: center;
+  padding-top:2%;
+}
+#game-play{
+  /* font-family: 'Lobster', cursive; */
+  /* font-family: 'Courgette', cursive; */
+  padding: 0 9%;
+  padding-bottom: 3%;
+  /* display: inline-block; */
+  text-align: center;
+  margin:auto;
+  background-color: #FFEEDB  ;
+
+}
+.win-style{
+  background-color: #C0E218;
+}
+.lose-style{
+  background-color: #FF414D;
+}
+.tie-style{
+  background-color: #F55C47;
+}
+.contain{
+  width:50%;
+  margin:auto;
+}
+.title{
+  margin:0;
+  font-size: 3.5rem;
+}
+.score-head{
+  /* width: 100%; */
+  /* font-family: 'Courgette', cursive; */
+  font-family: 'Russo One', sans-serif;
+  margin: 0 0;
+  /* padding-bottom: 1%; */
+  background-color: #FFAA4C;
+  border-bottom: 1px solid;
+}
+.player,.computer{
+  font-family: 'Russo One', sans-serif;
+}
+#game-play h1{
+  font-family: 'Russo One', sans-serif;
+}
+.player-side{
+
+  display: inline-block;
+  padding:1%;
+  /* width:50%; */
+}
+#game-play h1{
+  /* font-family: 'Courgette', cursive; */
+  margin:0;
+  padding-bottom:6%;
+}
+.player-section{
+  padding-bottom: 5%;
+  border: 1px solid;
+  margin-bottom:3%;
+  /* width:50%; */
+  /* margin:auto; */
+}
+.c-section{
+  border: 1px solid;
+}
+.lower{
+  padding-top:10%;
+}
+.result{
+  display: inline-block;
+  font-size: 3rem;
+  font-weight: 400;
+  font-family: 'Courgette', cursive;
+  /* padding-bottom: 5%; */
+  padding-top:13%;
+}
+.result h2{
+  padding-bottom: 10%;
+  font-family: 'Courgette', cursive;
+  /* font-family: 'Russo One', sans-serif; */
+
+  /* font-family: 'Lobster', cursive; */
+  font-size: 3rem;
+}
+
+.computer{
+
+}
+
+@media (min-width:800px){
+  .computer{
+    border-left:1px solid;
+  }
+}
+.containerr{
+  /* height: 2%; */
+  border:solid 1px;
+  display: inline-block;
+  width:25%;
+  /* padding:auto 0; */
+  background-color: #D5EEBB  ;
+}
+.butts{
+}
