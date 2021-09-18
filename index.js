@@ -42,7 +42,7 @@ function calculate(e) {
     document.querySelector(".result h2").innerHTML="Its a Tie";
     document.querySelector("."+c).classList.add("tie-style");
     e.classList.add("tie-style");
-    setTimeout(revert,500)
+    setTimeout(revert,800)
   }
   if(c=="PAPER" && u=="STONE"){
     lose(e,c)
@@ -69,12 +69,12 @@ function win(e,c){
   pscore.innerHTML++;
   document.querySelector(".result h2").innerHTML="You Win yay!!";
   document.querySelector("."+c).classList.add("lose-style");
-  setTimeout(revert,1000)
+  setTimeout(revert,800)
 }
 function lose(e,c){
   e.classList.add("lose-style");
   cscore.innerHTML++;
   document.querySelector(".result h2").innerHTML="You Lose F.";
   document.querySelector("."+c).classList.add("win-style");
-  setTimeout(revert,1000)
+  setTimeout(revert,800)
 }
