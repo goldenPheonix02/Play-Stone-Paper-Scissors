@@ -10,6 +10,10 @@ body{
   width:130px;
   background-color: #CCF2F4;
   border: solid 3px;
+  /* font-style: consolas; */
+  font-family: consolas, cursive;
+  font-size: 1.4rem;
+
 }
 .butt:hover{
   box-shadow: 1px 1px 10px #000;
@@ -77,6 +81,10 @@ body{
   /* padding-bottom: 1%; */
   background-color: #FFAA4C;
   border-bottom: 1px solid;
+}
+.rick{
+  visibility:hidden;
+  position: absolute;
 }
 .player,.computer{
   font-family: 'Russo One', sans-serif;

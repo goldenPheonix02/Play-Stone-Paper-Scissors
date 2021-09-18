@@ -10,15 +10,16 @@ var rick=""
 document.addEventListener("keydown",function(event){
   // console.log(event.key);
   rick+=event.key;
+  console.log(rick)
   if(rick=="rick"){
-
+    // document.querySelector(".rick").style.visibility="visible";
   }
 })
 
 function computer(){
-  var c=Math.floor(Math.random()*6)+1;
-  if(c==1||c==2){return "PAPER";}
-  if(c==3||c==4){return "STONE";}
+  var c=Math.floor(Math.random()*9)+1;
+  if(c==1||c==2||c==3){return "PAPER";}
+  if(c==5||c==5||c==6){return "STONE";}
   return "SCISSORS";
 }
 // document.querySelector(".btn").addEventListener("click",revert)
@@ -27,6 +28,8 @@ document.querySelectorAll(".player-side .butt")[1].addEventListener("click", fun
 document.querySelectorAll(".player-side .butt")[2].addEventListener("click", function(event){calculate(this)})
 function revert(){
   for(var i=0;i<document.querySelectorAll(".butt").length;i++){
+    // document.querySelector(".rick").style.visibility="hidden";
+
     document.querySelectorAll(".butt")[i].classList.remove("win-style","lose-style","tie-style");
   }
 }
@@ -39,7 +42,7 @@ function calculate(e) {
     document.querySelector(".result h2").innerHTML="Its a Tie";
     document.querySelector("."+c).classList.add("tie-style");
     e.classList.add("tie-style");
-    setTimeout(revert,700)
+    setTimeout(revert,500)
   }
   if(c=="PAPER" && u=="STONE"){
     lose(e,c)
