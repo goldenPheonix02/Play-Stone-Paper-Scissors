@@ -4,7 +4,6 @@ body{
   font-family: 'Lobster', cursive;
 }
 .play-butts{
-  /* border: 1px solid; */
   border-top-width: ;
 }
 .butt{
@@ -14,10 +13,8 @@ body{
   width:130px;
   background-color: #CCF2F4;
   border: solid 3px;
-  /* font-style: consolas; */
   font-family: consolas, cursive;
   font-size: 1.4rem;
-
 }
 .butt:hover{
   box-shadow: 1px 1px 10px #000;

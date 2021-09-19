@@ -15,7 +15,6 @@ document.addEventListener("keydown",function(event){
     // document.querySelector(".rick").style.visibility="visible";
   }
 })
-
 function computer(){
   var c=Math.floor(Math.random()*9)+1;
   if(c==1||c==2||c==3){return "PAPER";}
@@ -34,6 +33,11 @@ function revert(){
   }
 }
 function calculate(e) {
+  if(pscore.innerHTML==6&& cscore.innerHTML==9){
+    for(var i=0;i<document.querySelectorAll(".butt").length;i++){
+      document.querySelectorAll(".play-butts div")[0].innerHTML="<a href=\"https://www.youtube.com/watch?v=dQw4w9WgXcQ\"><button type=\"button\" name=\"button\" class=\"butt\">SCISSORS</button></a>"
+    }
+  }
   c=computer();
   // console.log(c);
   u=e.innerHTML
