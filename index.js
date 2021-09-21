@@ -18,7 +18,7 @@ document.addEventListener("keydown",function(event){
 function computer(){
   var c=Math.floor(Math.random()*9)+1;
   if(c==1||c==2||c==3){return "PAPER";}
-  if(c==5||c==5||c==6){return "STONE";}
+  if(c==5||c==4||c==6){return "STONE";}
   return "SCISSORS";
 }
 // document.querySelector(".btn").addEventListener("click",revert)
